@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local research data: redistribution rights not verified
+data/raw/
+data/processed/
+.env.*

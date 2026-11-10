@@ -1,0 +1,623 @@
+{
+  "research_as_of": "2026-11-10T13:45:00+08:00",
+  "observation_date_limit": "2026-11-09",
+  "sources": {
+    "gold": "https://tushare.pro/document/2?doc_id=179",
+    "instrument": "https://tushare.pro/document/2?doc_id=178",
+    "real_yield": "https://tushare.pro/document/2?doc_id=220",
+    "reference": "https://fred.stlouisfed.org/series/DFII10"
+  },
+  "requests": [
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20030101",
+        "end_date": "20031231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 261,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2003.json",
+      "sha256": "469f8a29adea55965c46a5cd2a0e1952c4b9502344ec2edfc25e2b28b94a7928",
+      "saved_at_utc": "2026-11-10T05:43:04.144963+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20040101",
+        "end_date": "20041231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 261,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2004.json",
+      "sha256": "0c9ed5660acd8ac037edf3ac614d8f8d9eaca61e5847c15c7dc1ee9a2032f302",
+      "saved_at_utc": "2026-11-10T05:43:04.660062+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20050101",
+        "end_date": "20051231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 260,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2005.json",
+      "sha256": "6e8bcb26fba68507602ad549376a110591ba993ea030460abd016aad55b7c57d",
+      "saved_at_utc": "2026-11-10T05:43:05.144041+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20060101",
+        "end_date": "20061231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 261,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2006.json",
+      "sha256": "4f025ad835b6fe5f7782a98eb5eed46cace1aabdeaf772667aae4956128071b8",
+      "saved_at_utc": "2026-11-10T05:43:05.662349+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20070101",
+        "end_date": "20071231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 261,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2007.json",
+      "sha256": "567c02888e4e188db65032522105af8d326ff715735f51f16cb8da4a53a49e5a",
+      "saved_at_utc": "2026-11-10T05:43:06.167306+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20080101",
+        "end_date": "20081231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 262,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2008.json",
+      "sha256": "ffb6907527fbaa5796c9d027741f27d30986a7893d08e86d236c2fd0bac482bb",
+      "saved_at_utc": "2026-11-10T05:43:06.657252+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20090101",
+        "end_date": "20091231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 249,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2009.json",
+      "sha256": "ae632d822ccffd76fa88b4ec6f5d2375b15329b7891a26491c8230582f648ee1",
+      "saved_at_utc": "2026-11-10T05:43:07.345069+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20100101",
+        "end_date": "20101231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 260,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2010.json",
+      "sha256": "c6802dbed436ab8218a4fc20c54eb0503d336cc01346551c8a7e9d4a53f815f0",
+      "saved_at_utc": "2026-11-10T05:43:07.902704+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20110101",
+        "end_date": "20111231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 264,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2011.json",
+      "sha256": "ac2d38d82aa788ddf235a8277e483e22b5cb5c05daa8bd87ae66a9cb122ab4fc",
+      "saved_at_utc": "2026-11-10T05:43:08.408373+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20120101",
+        "end_date": "20121231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 260,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2012.json",
+      "sha256": "3933f4f2891892669a5b00b4708b96d066b68f2f902cf8c10a7a77af062f3149",
+      "saved_at_utc": "2026-11-10T05:43:08.904300+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20130101",
+        "end_date": "20131231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 258,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2013.json",
+      "sha256": "79531dc3f2e1b4cb5758ac629681e291f822286357160b111a3f08883476ccf4",
+      "saved_at_utc": "2026-11-10T05:43:09.408254+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20140101",
+        "end_date": "20141231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 260,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2014.json",
+      "sha256": "d20db6ebc38f7f6c0ba620542db1ad2a2c242971e4f4f932e3296cf952f2ebe0",
+      "saved_at_utc": "2026-11-10T05:43:09.899025+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20150101",
+        "end_date": "20151231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 259,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2015.json",
+      "sha256": "c58f21ba2666f22bad3ee97d7bf3841161d4870570a57ec2f651a8c6bb7f9914",
+      "saved_at_utc": "2026-11-10T05:43:10.406047+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20160101",
+        "end_date": "20161231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 261,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2016.json",
+      "sha256": "2fa1bda058ba84fff1941cee4c67d64f35af3111a9c28e380d3d888db41740df",
+      "saved_at_utc": "2026-11-10T05:43:10.914869+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20170101",
+        "end_date": "20171231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 257,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2017.json",
+      "sha256": "2875e98e2159d7674350a4bab805f6f9756af0dd388d9fed41f5f96a7335cd2e",
+      "saved_at_utc": "2026-11-10T05:43:11.425017+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20180101",
+        "end_date": "20181231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 258,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2018.json",
+      "sha256": "dd0a8b96b3d28dd7f0e4fd7ac8639ad880c6145548a6e6157c12ddb8e9419afd",
+      "saved_at_utc": "2026-11-10T05:43:11.947398+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20190101",
+        "end_date": "20191231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 273,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2019.json",
+      "sha256": "b79beb0ecfa4f51cc0764826e363c60f9eb855627e7a500e109dfeb0d44f5670",
+      "saved_at_utc": "2026-11-10T05:43:12.513707+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20200101",
+        "end_date": "20201231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 258,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2020.json",
+      "sha256": "d49c3440f975adb4a607750279c1824993e0ad316da6638803777bd17801f432",
+      "saved_at_utc": "2026-11-10T05:43:13.014704+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20210101",
+        "end_date": "20211231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 260,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2021.json",
+      "sha256": "74c6a7fb05185cbf1acdd8a5649bfebe1b3b67c4e1525fcb49c5ba66ab41b8cd",
+      "saved_at_utc": "2026-11-10T05:43:13.502784+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20220101",
+        "end_date": "20221231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 281,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2022.json",
+      "sha256": "22491edfe3df6bc0be866d6204ea8aea455fa375d51d1999540003f41874135b",
+      "saved_at_utc": "2026-11-10T05:43:14.014549+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 298,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2023.json",
+      "sha256": "117a607df7cd5a36eccaf5d144f87afa9e31eabc8d9430ee0d3a07cb86a0eff2",
+      "saved_at_utc": "2026-11-10T05:43:14.507611+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 316,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2024.json",
+      "sha256": "2b27937ac73c3b851f24d75ea4bd10571b60a19de30fb0f02d4700bbce28d88a",
+      "saved_at_utc": "2026-11-10T05:43:15.006755+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 280,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2025.json",
+      "sha256": "a3ac9483efa85cadeb859ac2982c32b050d5d7aab264a8fb41fa2bf8296715c4",
+      "saved_at_utc": "2026-11-10T05:43:15.545281+00:00"
+    },
+    {
+      "api": "fx_daily",
+      "params": {
+        "ts_code": "XAUUSD.FXCM",
+        "start_date": "20260101",
+        "end_date": "20261109"
+      },
+      "fields": "ts_code,trade_date,bid_close,ask_close",
+      "rows": 240,
+      "file": "data\\raw\\2026-11-10\\fx_daily_2026.json",
+      "sha256": "2861d2b3a1248cb3d7180725a57385bb9b6c92adc7b2a36b6ca76a032c0c8b35",
+      "saved_at_utc": "2026-11-10T05:43:16.055373+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20030101",
+        "end_date": "20031231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2003.json",
+      "sha256": "82dc1e35dbedef78f41e90abf387fadd45e009544785a0eb17e0b43bc318d0f4",
+      "saved_at_utc": "2026-11-10T05:43:16.546469+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20040101",
+        "end_date": "20041231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2004.json",
+      "sha256": "f295370b9264db91eefd8eb75e8cdb663341d5a66b04dcc53cf0bcee49929c5a",
+      "saved_at_utc": "2026-11-10T05:43:17.044816+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20050101",
+        "end_date": "20051231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2005.json",
+      "sha256": "6f53655143ccd41a3224724c471468b5d809f761d83305b20bd3cd09ac86f47e",
+      "saved_at_utc": "2026-11-10T05:43:17.536795+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20060101",
+        "end_date": "20061231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2006.json",
+      "sha256": "204ea17ad27e0ace0d46e31f509fe615dc326ec644764f91f611d596449aac21",
+      "saved_at_utc": "2026-11-10T05:43:18.011202+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20070101",
+        "end_date": "20071231"
+      },
+      "fields": "date,y10",
+      "rows": 251,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2007.json",
+      "sha256": "6378f96c7b66b3e66a681e206bc0ef732e8aef969a17664cdaae17b131554fc7",
+      "saved_at_utc": "2026-11-10T05:43:18.485481+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20080101",
+        "end_date": "20081231"
+      },
+      "fields": "date,y10",
+      "rows": 251,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2008.json",
+      "sha256": "edd33b1035069a3ae8fba8664e7eb653130a39263217984980ea9c9d18c630ce",
+      "saved_at_utc": "2026-11-10T05:43:18.967046+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20090101",
+        "end_date": "20091231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2009.json",
+      "sha256": "023c018495d4b124d6e638fb9b27a8f59d13b7e9aca587b9658c3ae44988e072",
+      "saved_at_utc": "2026-11-10T05:43:19.465301+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20100101",
+        "end_date": "20101231"
+      },
+      "fields": "date,y10",
+      "rows": 251,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2010.json",
+      "sha256": "9407d354df9355f560eaa5e4793c3c5fdff3032d7e78c5e0cb51b97ee3b05deb",
+      "saved_at_utc": "2026-11-10T05:43:19.959260+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20110101",
+        "end_date": "20111231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2011.json",
+      "sha256": "54c31de3e480e7f999876610b427c74af7ac26d9c78323694a76e62a2b470da7",
+      "saved_at_utc": "2026-11-10T05:43:20.448162+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20120101",
+        "end_date": "20121231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2012.json",
+      "sha256": "904b5645d31a99296a5f10e83ab7ecf9b8f0b926d54939fe7a9179853f87351e",
+      "saved_at_utc": "2026-11-10T05:43:20.950284+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20130101",
+        "end_date": "20131231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2013.json",
+      "sha256": "877850dd480d7212663c05edce088e70119c15620c9f995120eff1c3b0db5baf",
+      "saved_at_utc": "2026-11-10T05:43:21.440920+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20140101",
+        "end_date": "20141231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2014.json",
+      "sha256": "9e0347dc770e93ab6b7a3aec855e991c038ff840dd6af4b4fc022aab9eef2b81",
+      "saved_at_utc": "2026-11-10T05:43:21.926059+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20150101",
+        "end_date": "20151231"
+      },
+      "fields": "date,y10",
+      "rows": 251,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2015.json",
+      "sha256": "c8ece2c37f2fd9e68967e942e3500eb585b875dccfa852610f07d8f123b63cb1",
+      "saved_at_utc": "2026-11-10T05:43:22.478832+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20160101",
+        "end_date": "20161231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2016.json",
+      "sha256": "e60b747bed38cb95732706e4191d0fc392ad3aa11e67a822031bcc681e2b4306",
+      "saved_at_utc": "2026-11-10T05:43:22.961621+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20170101",
+        "end_date": "20171231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2017.json",
+      "sha256": "d9ab0506e838a771b6f94101340c42b5e9c9528cb8c436d7a189581f0e4f4c1e",
+      "saved_at_utc": "2026-11-10T05:43:23.464365+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20180101",
+        "end_date": "20181231"
+      },
+      "fields": "date,y10",
+      "rows": 249,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2018.json",
+      "sha256": "309b29fa098ed54ec93111c422e5033a7c39bc8cd30ce50b44e3cdb9eacb3152",
+      "saved_at_utc": "2026-11-10T05:43:23.940782+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20190101",
+        "end_date": "20191231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2019.json",
+      "sha256": "56378ebc0d4b74a1b64a0bd22e9b75a426c58beda94375304d29366f0acca5ee",
+      "saved_at_utc": "2026-11-10T05:43:24.449156+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20200101",
+        "end_date": "20201231"
+      },
+      "fields": "date,y10",
+      "rows": 249,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2020.json",
+      "sha256": "545b6857639f63de5b906ff8a34d196f557918eb36b6d4a138033d19ce1de443",
+      "saved_at_utc": "2026-11-10T05:43:24.927320+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20210101",
+        "end_date": "20211231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2021.json",
+      "sha256": "32056ddb6c0ce7158a3fafe161727b9f32175cc83baef871941a07f0df87afec",
+      "saved_at_utc": "2026-11-10T05:43:25.416109+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20220101",
+        "end_date": "20221231"
+      },
+      "fields": "date,y10",
+      "rows": 249,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2022.json",
+      "sha256": "8b64d8a288c3e108563fa04710628076e423a48f315ca81beac86fa2625ca09a",
+      "saved_at_utc": "2026-11-10T05:43:25.923319+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2023.json",
+      "sha256": "ee27f181cd7c755710de2a0910345a6152c7cad329952517e0b3434b6430d355",
+      "saved_at_utc": "2026-11-10T05:43:26.801660+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "date,y10",
+      "rows": 250,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2024.json",
+      "sha256": "7670a3276a0e35417ef698e6c8c9095f7fb008c9693d7f312ac1421354332061",
+      "saved_at_utc": "2026-11-10T05:43:27.301950+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "date,y10",
+      "rows": 249,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2025.json",
+      "sha256": "c43f59ba2ac32aa1d2103f92771e1b6cf2eb2132fdbbf0d1dd4c890e377ecc75",
+      "saved_at_utc": "2026-11-10T05:43:28.401882+00:00"
+    },
+    {
+      "api": "us_trycr",
+      "params": {
+        "start_date": "20260101",
+        "end_date": "20261109"
+      },
+      "fields": "date,y10",
+      "rows": 215,
+      "file": "data\\raw\\2026-11-10\\us_trycr_2026.json",
+      "sha256": "305e0583a2077f6a26d2c514ea1e2537d92e24a7738042f6283a378b05bd8bef",
+      "saved_at_utc": "2026-11-10T05:43:28.892068+00:00"
+    }
+  ],
+  "reference_status": "available",
+  "reference_sha256": "aca3feb3ba41a8731fea1dddcbdb6590e6fba7c859c401221e6ad0035bbacf41",
+  "raw_redistribution": "Not verified; raw and processed data remain local and are git-ignored.",
+  "vintage": "Current retrieved history, not point-in-time vintages; exact release timestamps not supplied by Tushare.",
+  "runtime": {
+    "python": "3.12.7",
+    "pandas": "2.2.2",
+    "numpy": "1.26.4",
+    "matplotlib": "3.9.2",
+    "requests": "2.32.3"
+  }
+}
